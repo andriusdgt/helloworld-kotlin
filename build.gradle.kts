@@ -15,7 +15,7 @@ dependencies {
 }
 
 application {
-    mainClass.set("com.example.project.VintedShopKt")
+    mainClass.set("com.example.project.Main")
 }
 
 tasks.test {
