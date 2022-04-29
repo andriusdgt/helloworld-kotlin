@@ -7,7 +7,7 @@ Installed JDK 11 or higher
 
 ## Setup
 
-To build the project run commands:
+To build the project run command:
 
 ```
 ./gradlew clean build
