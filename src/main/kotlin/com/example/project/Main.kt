@@ -6,6 +6,17 @@ class Main {
         get() {
             return "Hello World!"
         }
+
+    //this is only needed to be able to launch it from terminal
+    companion object {
+
+        @JvmStatic
+        fun main(args: Array<String>) {
+            main()
+        }
+
+    }
+
 }
 
 fun main() {
